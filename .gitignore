@@ -1,0 +1,27 @@
+# Machine-specific parameters (not part of the repository; create from realtime/rb_params_template.m)
+rb_params.m
+
+# Local data, logs and machine model files
+/data/
+*.mat
+*.npz
+*.stl
+*.step
+*.stp
+*.igs
+*.iges
+
+# MATLAB / Simulink build files
+*.asv
+*.autosave
+*.slxc
+slprj/
+codegen/
+*.mex*
+
+# Operating system and editor files
+Thumbs.db
+desktop.ini
+.DS_Store
+.vscode/
+.idea/
